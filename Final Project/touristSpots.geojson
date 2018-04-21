@@ -1,0 +1,205 @@
+var touristSpots = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Archeological Crypt of the Ile de la Cite",
+        "landmarks": true,
+        "museum": false,
+        "reviews": "4 out of 5",
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d1492719-Reviews-Archeological_Crypt_of_the_Parvis_of_Notre_Dame-Paris_Ile_de_France.html",
+        "Description": "Display of ancient remains under Notre Dame",
+        "Address": " 7 Parvis Notre-Dame - Pl. Jean-Paul II,75004 Paris, France",
+        "Link": "http://www.crypte.paris.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3479843139648438,
+          48.85351976151956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Point Zero des Routes de France",
+        "landmarks": true,
+        "museum": false,
+        "reviews": "4.5 out of 5",
+        "reviewLink": "https://www.tripadvisor.com/LocationPhotoDirectLink-g187147-d188679-i265727285-Notre_Dame_Cathedral-Paris_Ile_de_France.html",
+        "Description": "Zero point of Paris.",
+        "Address": "Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France",
+        "Link": "https://www.atlasobscura.com/places/paris-point-zero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3487460613250732,
+          48.85333621606485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Arc de Triomphe du Carrousel",
+        "landmarks": true,
+        "museum": false,
+        "reviews": "4 out of 5", 
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d2195794-Reviews-Arc_de_Triomphe_du_Carrousel-Paris_Ile_de_France.html",
+        "Description": "The Arc de Triomphe is located here. A hotspot for people watching with quick access to a variety of amnenities",
+        "Address": "Place du carrousel, 75001 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Arc_de_Triomphe_du_Carrousel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3341012001037598,
+          48.86142216697644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Palais Bourbon",
+        "landmarks": true,
+        "museum": false,
+        "reviews": "4 out of 5",
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d189282-Reviews-Palais_Bourbon-Paris_Ile_de_France.html",
+        "Description": "Riverside 1700s mansion which houses the French National Assembly.",
+        "Address": "126 Rue de l'Universite, 75007 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Palais_Bourbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.318962812423706,
+          48.86174331919941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Luxor Obelisk",
+        "landmarks": true,
+        "museum": false,
+        "reviews": "4 out of 5",
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d268091-Reviews-Obelisk_of_Luxor-Paris_Ile_de_France.html",
+        "Description": "Ancient Egyptian granite obelisk.",
+        "Address": "Place de la Concorde, 75008 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Luxor_Obelisk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32110857963562,
+          48.86541348396721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { 
+        "Name": "Jeu de Paume",
+        "landmarks": false,
+        "museum": true,
+        "reviews": "4.5 out of 5", 
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d232112-Reviews-Jeu_de_Paume-Paris_Ile_de_France.html",
+        "Description": "The famous Glass pyramid created by I. M. Pei.",
+        "Address": "1 Place de la Concorde, 75008 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.324037551879883,
+          48.86581577412129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Louvre Museum",
+        "landmarks": false,
+        "museum": true,
+        "reviews": "4.5 out of 5", 
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d188757-Reviews-Louvre_Museum-Paris_Ile_de_France.html",
+        "Description": "Former historic palace which now showcases a huge collection of art",
+        "Address": "Rue de Rivoli, 75001 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Louvre_Palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.337716817855835,
+          48.86059986672674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Musee des Arts Decoratifs",
+        "landmarks": false,
+        "museum": true,
+        "reviews": "4 out of 5", 
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d232164-Reviews-Musee_des_Arts_Decoratifs-Paris_Ile_de_France.html",
+        "Description": "Museum that showcases art pieces from Middle ages to present day.",
+        "Address": "107 Rue de Rivoli, 75001 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Musée_des_Arts_Décoratifs,_Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3330444097518916,
+          48.863154952885495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Petit Palais",
+        "landmarks": false,
+        "museum": true,
+        "reviews": "4.5 out of 5",
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d232167-Reviews-Petit_Palais_City_of_Paris_Fine_Art_Museum-Paris_Ile_de_France.html",
+        "Description": "Museum which houses renaissance to 20th century pieces.",
+        "Address": "Avenue Winston Churchill, 75008 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Petit_Palais"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.314639091491699,
+          48.86598515848181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Grand Palais",
+        "landmarks": false,
+        "museum": true,
+        "reviews": "4 out of 5",
+        "reviewLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d590230-Reviews-Grand_Palais-Paris_Ile_de_France.html",
+        "Description": "Art hall which hosts exhibitions and events.",
+        "Address": "3 Avenue du General Eisenhower, 75008 Paris, France",
+        "Link": "https://en.wikipedia.org/wiki/Grand_Palais"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3125791549682617,
+          48.86610513872364
+        ]
+      }
+    }
+  ]
+}

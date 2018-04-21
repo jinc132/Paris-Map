@@ -1,0 +1,270 @@
+var tourSights = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ile de la Cite",
+        "img": "https://www.vivaparigi.com/wp-content/uploads/2015/10/ile-de-la-cite-parigi.jpg",
+        "Link": "https://en.wikipedia.org/wiki/Île_de_la_Cité",
+        "Description": "This area is one of the most popular tourist spots in Paris. As it well known for the Notre Dame cathedral and its popular boat rides which traverses the Seine river.",
+        "Address": "Paris, France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3394012451171875,
+              48.85782582717226
+            ],
+            [
+              2.341761589050293,
+              48.85613168160397
+            ],
+            [
+              2.344036102294922,
+              48.85460690157009
+            ],
+            [
+              2.347297668457031,
+              48.85333621606485
+            ],
+            [
+              2.3500442504882812,
+              48.85229140604385
+            ],
+            [
+              2.3525333404541016,
+              48.85164191855464
+            ],
+            [
+              2.3521041870117188,
+              48.85254555102871
+            ],
+            [
+              2.3514604568481445,
+              48.85435276704921
+            ],
+            [
+              2.34982967376709,
+              48.85522811385678
+            ],
+            [
+              2.3467397689819336,
+              48.85621639024412
+            ],
+            [
+              2.3447656631469727,
+              48.85678111084862
+            ],
+            [
+              2.3426198959350586,
+              48.8571764114812
+            ],
+            [
+              2.3394012451171875,
+              48.85782582717226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pyramide du Louvre",
+        "img": "https://static.dezeen.com/uploads/2017/04/louvre-paris-france-news-im-pei-100-birthday-buildings-roundup_dezeen_ss2-852x609.jpg",
+        "Description": "The famous Glass pyramid created by I. M. Pei. Well-reknown for the design and the amnenities.",
+        "Link": "https://en.wikipedia.org/wiki/Louvre_Pyramid",
+        "Address": "75001 Paris, France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3352062702178955,
+              48.861665678191514
+            ],
+            [
+              2.3346269130706783,
+              48.86076926874143
+            ],
+            [
+              2.337116003036499,
+              48.86014106672441
+            ],
+            [
+              2.3375988006591797,
+              48.86105866252351
+            ],
+            [
+              2.3352062702178955,
+              48.861665678191514
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Place de la Concorde",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Place-de-la-concorde.jpg",
+        "Description": "This area is a major public square showing decorated fountains.",
+        "Link": "https://en.wikipedia.org/wiki/Place_de_la_Concorde",
+        "Address": "75008 Paris, France"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3212748765945435,
+              48.8662180610414
+            ],
+            [
+              2.3203682899475098,
+              48.86495825699788
+            ],
+            [
+              2.320438027381897,
+              48.86479592699945
+            ],
+            [
+              2.3207277059555054,
+              48.86470064610297
+            ],
+            [
+              2.320958375930786,
+              48.864732406421965
+            ],
+            [
+              2.3218756914138794,
+              48.86592516825303
+            ],
+            [
+              2.321907877922058,
+              48.86614042697531
+            ],
+            [
+              2.3215001821517944,
+              48.86627099329012
+            ],
+            [
+              2.3212748765945435,
+              48.8662180610414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jardin des Champs Elysee",
+        "img": "http://www.pariscotejardin.fr/wp-content/P1120486.jpg",
+        "Address": "10 Av. des Champs-Elysees, 75008 Paris, France",
+        "Description": "This area is great spot which islocation to a variety of historical landmarks and several entertainment centers. ",
+        "Link": "https://en.wikipedia.org/wiki/Jardin_des_Champs-Élysées"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.313995361328125,
+              48.86791892262752
+            ],
+            [
+              2.3198318481445312,
+              48.86602750448236
+            ],
+            [
+              2.320497035980224,
+              48.8668038414753
+            ],
+            [
+              2.3203682899475098,
+              48.86705791278439
+            ],
+            [
+              2.3163342475891113,
+              48.868314135299535
+            ],
+            [
+              2.315883636474609,
+              48.868314135299535
+            ],
+            [
+              2.3153257369995117,
+              48.868314135299535
+            ],
+            [
+              2.3148751258850098,
+              48.86846939656666
+            ],
+            [
+              2.314596176147461,
+              48.86876580310249
+            ],
+            [
+              2.313995361328125,
+              48.86791892262752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Esplanade des Invalides",
+        "img": "https://en.parisinfo.com/var/otcp/sites/images/media/1.-photos/52.-paris-en-image/les-invalides-850x540-c-thinkstock/2907015-1-fre-FR/Les-Invalides-850x540-C-Thinkstock.jpg",
+        "Address": " 1 Rue Fabert, 75007 Paris, France",
+        "Description": "A long lawn great area to take a breather and enjoy the great views of Paris. ",
+        "Link": "https://en.wikipedia.org/wiki/Les_Invalides"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.311677932739258,
+              48.862682060035624
+            ],
+            [
+              2.311270236968994,
+              48.858418764575596
+            ],
+            [
+              2.314639091491699,
+              48.85822111955489
+            ],
+            [
+              2.315089702606201,
+              48.862879687441755
+            ],
+            [
+              2.314746379852295,
+              48.86280910631485
+            ],
+            [
+              2.312922477722168,
+              48.86278087383624
+            ],
+            [
+              2.3121070861816406,
+              48.86275264134168
+            ],
+            [
+              2.311677932739258,
+              48.862682060035624
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
